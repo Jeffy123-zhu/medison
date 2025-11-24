@@ -1,0 +1,28 @@
+DEPLOYMENT INSTRUCTIONS
+=======================
+
+STEP 1: Push to GitHub
+-----------------------
+git push -f origin master
+
+STEP 2: Deploy to Vercel
+-------------------------
+1. Go to https://vercel.com
+2. Click "Add New Project"
+3. Import your GitHub repo
+4. Vercel will auto-detect Vite
+5. Click "Deploy"
+6. Wait 2 minutes
+7. Done!
+
+NO CONFIGURATION NEEDED!
+Vercel automatically detects:
+- Framework: Vite
+- Build Command: npm run build
+- Output Directory: dist
+
+Your site will be live at:
+https://mediscan-ai-xxx.vercel.app
+
+THAT'S IT!
+==========
