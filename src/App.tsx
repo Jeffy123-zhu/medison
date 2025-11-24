@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import { Upload, Activity, Brain, Heart, AlertCircle, CheckCircle2, Loader2 } from 'lucide-react'
+import Statistics from './components/Statistics'
+import Impact from './components/Impact'
+import Roadmap from './components/Roadmap'
 
 interface AnalysisResult {
   prediction: string
@@ -217,7 +220,11 @@ function App() {
         </div>
       </main>
 
-      <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-12 mt-16">
+      <Statistics />
+      <Impact />
+      <Roadmap />
+
+      <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 mb-2">
             Built for HealTech Innovators Hackathon 2025
